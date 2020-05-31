@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+ <meta charset="utf-8">
+ <title>ビンゴゲーム</title>
+ <meta name="description" content="サイトキャプションを入力">
+ <meta name="keywords" content="サイトキーワードを,で区切って入力">
+ <link rel="stylesheet" type="text/css" href="bingo.css">
+ <!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+ <![endif]-->
+ </head>
+ <body>
+    <span id="random">BINGO!</span>
+    <form><input type="button" value="ROULETTE START!" id="get-number"></form>
+    <h1 class="last">前回の数字:<span id="last-number">NEW GAME</span></h1>
+    <h1>
+       <ul class="usednumberlist">
+          <span id="display"></span>
+          <li>B</li> <li>I</li> <li>N</li> <li>G</li> <li>O</li> 
+    </h1>
+    <input type="button" value="RESET" class="reset" onclick="window.location.reload()">
+ <script type="text/javascript" src="bingo.js"></script>
+ </body>
+</html>
